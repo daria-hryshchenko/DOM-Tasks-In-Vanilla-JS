@@ -11,5 +11,5 @@ const increment = () => {
     return (currentValue.textContent = counterResult);
 };
 
-decrementBtn.addEventListener('click', decrement);
-incrementBtn.addEventListener('click', increment);
+console.log(decrementBtn.addEventListener('click', decrement));
+console.log(incrementBtn.addEventListener('click', increment));
